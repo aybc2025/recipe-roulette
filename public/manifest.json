@@ -1,25 +1,34 @@
 {
+  "id": "/recipe-roulette/app",
   "name": "מה לבשל היום?",
   "short_name": "מה לבשל",
   "description": "בחר מתכון או הגרל — סיים את המחשבה הבלתי פוסקת",
-  "start_url": "/recipe-roulette/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f0e8",
+  "orientation": "portrait",
+  "background_color": "#2a2420",
   "theme_color": "#2a2420",
   "lang": "he",
   "dir": "rtl",
   "icons": [
     {
-      "src": "/recipe-roulette/icons/icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/recipe-roulette/icons/icon-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
